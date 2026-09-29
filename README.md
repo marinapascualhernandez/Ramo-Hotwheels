@@ -1,2 +1,2 @@
 # Ramo-Hotwheels
-Ramo virtual de Hot Wheels  🏍️❤️
+Ramo virtual de Hot Wheels  ❤️
