@@ -406,6 +406,23 @@ h1{
   height:auto;
   overflow:visible;
 }
+.car {
+  z-index: 50;
+  pointer-events: auto;
+}
+
+/* Las flores, hojas y tallos no deben bloquear los clics */
+.flower,
+.leaf,
+.stem {
+  pointer-events: none;
+}
+
+/* La moto tampoco debe bloquear los clics */
+.wrapper,
+.moto-design {
+  pointer-events: none;
+}
 
 @keyframes motoPulse{
   0%,100%{transform:translate(-50%,-50%) scale(1)}
